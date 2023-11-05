@@ -8,7 +8,7 @@ defmodule MapSets do
   koan "I do not allow duplication" do
     new_set = MapSet.new([1, 1, 2, 3, 3, 3])
 
-    assert MapSet.size(new_set) == ___
+    assert MapSet.size(new_set) == 3
   end
 
   def sorted?(set) do
